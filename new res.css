@@ -1,0 +1,20 @@
+
+hr.solid {
+  border-top: 3px solid #0D3756;
+}
+
+.font-med{
+	font size: 30px;
+}
+
+.font-sa{
+	font size:20px;
+}
+
+hr.solid1 {
+  border-top: 3px solid #bbb;
+}
+
+.tab{
+	tab-size: 4 ;
+}
