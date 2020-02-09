@@ -112,3 +112,6 @@ body, html {
 .selectize-control.loading::before {
   opacity: 0.4;
 }
+h4 {
+  background-color: #4F5F93;
+}
