@@ -109,7 +109,7 @@
 			}
 			.column {
 			  float: left;
-			  width: 33.33%;
+			  width: 50%;
 			}
 			.row:after {
 			  content: "";
@@ -120,8 +120,38 @@
  			 background-color: #4F5F93;
 			}
 			.lol{
-			   	background-color: #d5f4e6
+			   	background-color: #d5f4e6;
 			   
+			}
+			hr.solid {
+			  border-top: 3px solid #0D3756;
+			}
+
+			.font-med{
+				font size: 30px;
+			}
+
+			.font-sa{
+				font size:20px;
+			}
+			</style>
+			<style>
+			#section1 {
+			  height: 600px;
+			  background-color: #4F5F93;
+			}
+
+			#section2 {
+			  height: 600px;
+			  
+			}
+			#section3{
+				height: 600px;
+				background-color: #4F5F93;
+			}
+			#section4 {
+			  height: 600px;
+			  
 			}
 			</style>
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
@@ -141,6 +171,41 @@
 		<script src="state.js"></script>
 
 
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  // Add smooth scrolling to all links
+			  $("a").on('click', function(event) {
+
+			    // Make sure this.hash has a value before overriding default behavior
+			    if (this.hash !== "") {
+			      // Prevent default anchor click behavior
+			      event.preventDefault();
+
+			      // Store hash
+			      var hash = this.hash;
+
+			      // Using jQuery's animate() method to add smooth page scroll
+			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+			   
+			        // Add hash (#) to URL when done scrolling (default click behavior)
+			        window.location.hash = hash;
+			      });
+			    } // End if
+			  });
+			});
+		</script>
+
 	</head>
 
 	<body>
@@ -148,7 +213,7 @@
   		</script>
   		<div class="hero-image">
 	  		<div class="hero-text">
-		    	<h1 class="text-center font-cairo font-size-large" > <b> ALERT</h1>
+		    	<h1 class="text-center font-cairo font-size-large" > <b> Eyes On You</h1>
 		    	<br>
 		    	<p class="text-center font-cairo font-size-medium"> Be alerted when there are ICE raids in your area. </p>
 
@@ -262,7 +327,86 @@
   </div>
 </center>
 <div>
-  <a href= "resources.html"> Link to resources</a>
+	<div>
+		<center>
+			<h1 class= "font-cairo"><strong>
+				Know Your Rights
+			</strong></h1>
+		</center>
+	</div>
+
+
+	<center><div>
+		
+		  <li> What are your rights? <a href="#section1"> > </a> </li>
+		  <li> Scenarios with ICE <a href="#section2"> > </a> </li>
+		  <li> ICE Regulations <a href="#section3"> > </a> </li>
+		  <li> Documentation <a href="#section4"> > </a> </li>
+ 
+	
+	</div></center>
+</div>
+
+
+<div class="main" id="section1">
+   <center><strong><h2 class="font-cairo font-med"><a id ="rights"> What are your rights? </a></h2></center></strong>
+		<p> A good resource to use is a website called: <a href= "https://www.immigrantdefenseproject.org/ice-home-and-community-arrests/"> Immigration Defense Project </a>. 
+		
+		<br>FACTS:</br>
+		<li>ICE often pretends to be police, here's what you can do: Ask them to slip their card under the door or a warrant.</li>
+		<li>You don't have to let them in without a warrent SIGNED by the judge.</li>
+		<li>DON'T LIE.</li>
+		<li>DON'T RUN OR PHYSICALLY RESIST ARREST.</li>
+		<li>You have the right to not talk to them.</li>
+	</p>
+</div>
+
+<div class="main" id="section2">
+  <center><strong><h2 class="font-cairo font-med"><a id = "scene"> Scenarios with ICE </a> </h2></strong></center>
+  	<div class="row">
+  		<div class="column">
+			<p style= "float: left; margin-left: 30px;">Here are some scenarios
+				
+				such as: </p>
+			<br>
+			</br>
+			<p style= "float:left; margin-left:100px">
+			<li >"If you are stopped on the street or in a public place" </li>
+			</p>
+
+			<p style= "float: left; margin-left: 100px;">
+			<li>"If ICE comes to your door"</li>
+			</p>
+
+			<p style= "float: left; margin-left: 100px;"> 
+			<li >"An example of a valid and invalid warrant"</li>
+			</p>
+
+			<p style= "float: left; margin-left: 100px;">
+			<li >"If you are stopped in your car"</li></p>
+
+			<p style= "float: left; margin-left: 100px;">
+			<li >"If ICE comes to your workplace"</li></p>
+
+			<p style= "float: left; margin-left: 100px;">
+			<li >"If you are arrested by ICE"</li>
+			</p>
+		</div>
+		<div>
+			<a href= "https://wearecasa.org/wp-content/uploads/2017/04/KYR-New-V2.1English.pdf"> Link with other multiple scenarios </a>
+		</div>
+	</div>
+
+</div>
+
+
+<div class="main" id="section3">
+  <center><strong><h2 class="font-cairo font-med"> <a id = "ICE"> ICE Regulations </a> </h2></strong></center>
+ <li> This <a href= "https://locator.ice.gov/odls/#/index"> Online Detainee Locator System </a> helps look for detained family, friends, loved ones over the age of 18</li>
+</div>
+
+<div class="main" id="section4">
+  <center><strong><h2 class="font-cairo font-med"><a id = "docs"> Documentation </a> </h2></strong></center>
 </div>
 
 </body>
